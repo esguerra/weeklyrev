@@ -32,8 +32,8 @@ start = time.time()
 
 # Following are necessary definitions
 
-mail_user = "mauricio.esguerra@gmail.com"
-mail_pwd = ""
+mail_user = "weeklyrevs@gmail.com"
+mail_pwd = "xxx"
 
 feeds = ['http://feeds.nature.com/nature/rss/current',
        'http://www.sciencemag.org/rss/current.xml',
