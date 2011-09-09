@@ -28,15 +28,14 @@ from email.MIMEBase import MIMEBase
 from email.MIMEText import MIMEText
 from email import Encoders
 
+
 start = time.time()
 
-# Following are necessary definitions
-
+# Variable Definitions
 mail_user = "weeklyrevs@gmail.com"
-mail_pwd = "xxx"
-
+mail_pwd = "sendmerevs"
 feeds = ['http://feeds.nature.com/nature/rss/current',
-       'http://www.sciencemag.org/rss/current.xml',
+        'http://www.sciencemag.org/rss/current.xml',
         'http://feeds.nature.com/nsmb/rss/current',
         'http://www.pnas.org/rss/current.xml',
         'http://feeds.aps.org/rss/recent/prl.xml',
@@ -46,16 +45,16 @@ feeds = ['http://feeds.nature.com/nature/rss/current',
         'http://www.cell.com/rssFeed/biophysj/rss.NewIssueAndArticles.xml',
         'http://barf.jcowboy.org/jmb.xml'
         ]
-
 search_fields = [
     ('Title:', 'title', None),
     ('Abstract:', 'description', None),
     ('URL:', 'link', None)]
-
 keywords = ['RNA','DNA','Triplex','DNA Triplex',
             'RNA folding', 'life origin']
-
 indent = u' '*4
+
+
+
 
 def mail(to, subject, text, attach):
    msg = MIMEMultipart()
@@ -81,7 +80,7 @@ def mail(to, subject, text, attach):
    mailServer.login(mail_user, mail_pwd)
    mailServer.sendmail(mail_user, to, msg.as_string())
    # Should be mailServer.quit(), but that crashes...
-   mailServer.close()
+   mailServer.quit()
    
  
 
@@ -89,18 +88,27 @@ def mail(to, subject, text, attach):
 file = open('weekinreview.txt','w')
 
 
+#def review:{}
+#def readurl(feeds):
+#     """Read URL"""     
+
+ 
 for url in feeds: 
   feed_data = feedparser.parse(url)
   maxi=len(feed_data.entries)
+  print >> file, indent, u'==================================================='
   print >> file, feed_data.feed.title.encode('utf-8')
 
   item=0
   items=range(int(maxi))
   for item in items:
       thedata = feed_data.entries
-#      b = re.match('RNA', thedata[item].description)
+#      One can make it case insensitive adding re.findall("term",item,re.I)      
+#      b = re.findall("RNA", thedata[item].description, re.I)
       b = re.findall("RNA", thedata[item].description)      
       if b:
+            print >> file, indent, thedata[item].title.upper().encode('utf-8')
+            print >> file, indent, u'........................................'          
             print >> file, indent, thedata[item].description.encode('utf-8')                       
             print >> file, indent, thedata[item].link.encode('utf-8')
             print >> file,  indent, u'---'
@@ -114,12 +122,13 @@ end = time.time()
 print >> file, 'fetch took %0.3f s' % (end-start)
  
 
-#review(feeds,fields,keywords)
 
-mail("mauricio.esguerra@gmail.com",
-   "Automated Weekly Literature Review",
-   "",
-   "weekinreview.txt")
+
+#review(feeds,fields,keywords)
+#mail("mauricio.esguerra@gmail.com",
+#   "Automated Weekly Literature Review",
+#   " ",
+#   "weekinreview.txt")
 
 
 
@@ -137,3 +146,13 @@ mail("mauricio.esguerra@gmail.com",
 ## http://www.wellho.net/resources/ex.php4?item=y104/lister << Remember lists
 ## http://kutuma.blogspot.com/2007/08/
 ## sending-emails-via-gmail-with-python.html  << Sends email
+
+#
+# The idea would be that Pubmed should allow me to do the same search so that I
+# wouldn't have to loose time on this. For now this is what you get using 
+# pubmed.
+#
+# Search using:
+# RNA[Title/Abstract] AND ("2011/08/07"[PDat] : "2011/09/05"[PDat]) AND 
+# (Nature[Journal] OR Science[Journal])
+# And then compare results with weeklyrev1.6 and you'll see the difference.
