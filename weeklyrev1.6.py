@@ -33,7 +33,7 @@ start = time.time()
 
 # Variable Definitions
 mail_user = "weeklyrevs@gmail.com"
-mail_pwd = "sendmerevs"
+mail_pwd = "xxx"
 feeds = ['http://feeds.nature.com/nature/rss/current',
         'http://www.sciencemag.org/rss/current.xml',
         'http://feeds.nature.com/nsmb/rss/current',
