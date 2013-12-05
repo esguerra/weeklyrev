@@ -15,8 +15,8 @@ h2. Setup & Installation
 
 2. Install the python feedparser library
 
- easy_install feedparser
- sudo yum install python-feedparser
+easy_install feedparser
+sudo yum install python-feedparser
  
 h2. Usage
 
