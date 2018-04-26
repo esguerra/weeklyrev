@@ -1,22 +1,25 @@
-#!/usr/bin/python
-#####################################################################
-## File:        weeklyrev.py
-## Authors:     Mauricio Esguerra
-## Date:        Monday, August 19, 2011
-## Email:       mauricio.esguerra@gmail.com
-##
-## Description:
-##              I got bored of spending a lot of time reviewing
-##              the top journals for news related to my research
-##              and for news that I find most interesting.
-##              So this is an attempt to automate this task.
-## Aims:
-##            * send e-mail on Sunday nites with queries based
-##              on main keywords, most likely looking for the
-##              query terms in the titles field.
-##
-##            * perhaps increase the keywords to authors.
-#####################################################################
+#!/usr/bin/env python
+"""
+================================================================================
+File:        weeklyrev.py
+Authors:     Mauricio Esguerra
+Start:       Friday, October 7 2011
+Latest:      Thursday, April 2018
+Email:       mauricio.esguerra@gmail.com
+
+Description:
+             I got bored of spending a lot of time reviewing
+             the top journals for news related to my research
+             and for news that I find most interesting.
+             So this is an attempt to automate this task.
+Aims:
+           * send e-mail on Sunday nites with queries based
+             on main keywords, most likely looking for the
+             query terms in the titles field.
+
+           * perhaps increase the keywords to authors.
+================================================================================
+"""
 import time
 import feedparser
 import re
@@ -156,3 +159,4 @@ print >> file, 'fetch took %0.3f s' % (end-start)
 # RNA[Title/Abstract] AND ("2011/08/07"[PDat] : "2011/09/05"[PDat]) AND 
 # (Nature[Journal] OR Science[Journal])
 # And then compare results with weeklyrev1.6 and you'll see the difference.
+# The difference is that it's not up to date with the latest issues of nature and science.
