@@ -12,12 +12,12 @@ Setup & Installation
 
 1. Clone the repository
 
-    git clone https://github.com/esguerra/weeklyrev.git
+        git clone https://github.com/esguerra/weeklyrev.git
 
 
 2. Install the python feedparser library
 
-    pip install feedparser
+        pip install feedparser
 
  
 Usage

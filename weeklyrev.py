@@ -4,7 +4,7 @@
 File:        weeklyrev.py
 Authors:     Mauricio Esguerra
 Start:       Friday, October 7 2011
-Latest:      Thursday, April 2018
+Update:      Thursday, April 2018
 Email:       mauricio.esguerra@gmail.com
 
 Description:
@@ -45,8 +45,8 @@ feeds = ['http://feeds.nature.com/nature/rss/current',
         'http://nar.oxfordjournals.org/rss/current.xml',
         'http://rnajournal.cshlp.org/rss/current.xml',
         'http://bioinformatics.oxfordjournals.org/rss/current.xml',
-        'http://www.cell.com/rssFeed/biophysj/rss.NewIssueAndArticles.xml',
-        'http://barf.jcowboy.org/jmb.xml'
+        'https://www.cell.com/cell/current.rss',
+        'https://www.journals.elsevier.com/journal-of-molecular-biology/rss'
         ]
 search_fields = [
     ('Title:', 'title', None),
@@ -99,9 +99,8 @@ file = open('weekinreview.txt','w')
 for url in feeds: 
   feed_data = feedparser.parse(url)
   maxi=len(feed_data.entries)
-  print >> file, indent, u'==================================================='
   print >> file, feed_data.feed.title.encode('utf-8')
-
+  print >> file,  u'==================================================='
   item=0
   items=range(int(maxi))
   for item in items:
@@ -110,20 +109,23 @@ for url in feeds:
 #      b = re.findall("RNA", thedata[item].description, re.I)
       b = re.findall("RNA", thedata[item].description)      
       if b:
-            print >> file, indent, thedata[item].title.upper().encode('utf-8')
-            print >> file, indent, u'........................................'          
-            print >> file, indent, thedata[item].description.encode('utf-8')                       
-            print >> file, indent, thedata[item].link.encode('utf-8')
-            print >> file,  indent, u'---'
+            print >> file, thedata[item].title.upper().encode('utf-8')
+            print >> file, u'----------------------------------------'
+            print >> file, thedata[item].description.encode('utf-8')
+            print >> file, thedata[item].link.encode('utf-8')
+            print >> file, u'----------------------------------------'
+#            print >> file,  indent, u'---'
 #            print b.group()
 #            howmany=len(b)
 #            print howmany
 #            print b
-  print >> file, indent, u'==================================================='
+  print >> file, u'                               '
 
 end = time.time()
 print >> file, 'fetch took %0.3f s' % (end-start)
  
+
+
 
 
 
@@ -132,8 +134,6 @@ print >> file, 'fetch took %0.3f s' % (end-start)
 #   "Automated Weekly Literature Review",
 #   " ",
 #   "weekinreview.txt")
-
-
 
 
 
