@@ -4,14 +4,17 @@
 File:        weeklyrev.py
 Authors:     Mauricio Esguerra
 Start:       Friday, October 7 2011
-Update:      Thursday, April 2018
+Update:      April 2018
 Email:       mauricio.esguerra@gmail.com
 
 Description:
-             I got bored of spending a lot of time reviewing
-             the top journals for news related to my research
-             and for news that I find most interesting.
-             So this is an attempt to automate this task.
+             Manual reviewing of paper journals can be too time consuming,
+             and some of the solutions to automate the task leave out what
+             one can see posted on the webpages of the journals one is
+             interested in, or have some type of embargo on sending those news
+             to other databases such as the ones in scifinder and pubmed.
+             So this is an attempt to automate the task of parsing literature
+             of interest.
 Aims:
            * send e-mail on Sunday nites with queries based
              on main keywords, most likely looking for the
@@ -54,7 +57,7 @@ search_fields = [
     ('URL:', 'link', None)]
 keywords = ['RNA','DNA','Triplex','DNA Triplex',
             'RNA folding', 'life origin']
-indent = u' '*4
+indent = u' '*2
 
 
 
@@ -130,6 +133,7 @@ print >> file, 'fetch took %0.3f s' % (end-start)
 
 
 #review(feeds,fields,keywords)
+
 #mail("mauricio.esguerra@gmail.com",
 #   "Automated Weekly Literature Review",
 #   " ",

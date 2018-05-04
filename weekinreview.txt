@@ -3,19 +3,14 @@ Nature - Issue - nature.com science feeds
                                
 Science current issue
 ===================================================
-STRUCTURE OF A PREHANDOVER MAMMALIAN RIBOSOMAL SRP{MIDDLE DOT}SRP RECEPTOR TARGETING COMPLEX
-----------------------------------------
-<p>Signal recognition particle (SRP) targets proteins to the endoplasmic reticulum (ER). SRP recognizes the ribosome synthesizing a signal sequence and delivers it to the SRP receptor (SR) on the ER membrane followed by the transfer of the signal sequence to the translocon. Here, we present the cryo&ndash;electron microscopy structure of the mammalian translating ribosome in complex with SRP and SR in a conformation preceding signal sequence handover. The structure visualizes all eukaryotic-specific SRP and SR proteins and reveals their roles in stabilizing this conformation by forming a large protein assembly at the distal site of SRP RNA. We provide biochemical evidence that the guanosine triphosphate hydrolysis of SRP&middot;SR is delayed at this stage, possibly to provide a time window for signal sequence handover to the translocon.</p>
-http://science.sciencemag.org/cgi/content/short/360/6386/323?rss=1
-----------------------------------------
-DEVELOPMENTAL AND ONCOGENIC PROGRAMS IN H3K27M GLIOMAS DISSECTED BY SINGLE-CELL RNA-SEQ
-----------------------------------------
-<p>Gliomas with histone H3 lysine27-to-methionine mutations (H3K27M-glioma) arise primarily in the midline of the central nervous system of young children, suggesting a cooperation between genetics and cellular context in tumorigenesis. Although the genetics of H3K27M-glioma are well characterized, their cellular architecture remains uncharted. We performed single-cell RNA sequencing in 3321 cells from six primary H3K27M-glioma and matched models. We found that H3K27M-glioma primarily contain cells that resemble oligodendrocyte precursor cells (OPC-like), whereas more differentiated malignant cells are a minority. OPC-like cells exhibit greater proliferation and tumor-propagating potential than their more differentiated counterparts and are at least in part sustained by <i>PDGFRA</i> signaling. Our study characterizes oncogenic and developmental programs in H3K27M-glioma at single-cell resolution and across genetic subclones, suggesting potential therapeutic targets in this disease.</p>
-http://science.sciencemag.org/cgi/content/short/360/6386/331?rss=1
-----------------------------------------
                                
 Nature Structural & Molecular Biology - Issue - nature.com science feeds
 ===================================================
+DEFECTIVE GERMLINE REPROGRAMMING REWIRES THE SPERMATOGONIAL TRANSCRIPTOME
+----------------------------------------
+<p><b>Defective germline reprogramming rewires the spermatogonial transcriptome</b></p><p>Defective germline reprogramming rewires the spermatogonial transcriptome, Published online: 30 April 2018; <a href="https://www.nature.com/articles/s41594-018-0058-0">doi:10.1038/s41594-018-0058-0</a></p>Deficits in de novo DNA methylation and the piRNA pathway in the mouse germline cause spermatogonial dysfunction because derepressed transposons deregulate gene expression.<img alt="" height="1" src="http://feeds.feedburner.com/~r/nsmb/rss/current/~4/oozD0dg-2-U" width="1" />
+http://feeds.nature.com/~r/nsmb/rss/current/~3/oozD0dg-2-U/s41594-018-0058-0
+----------------------------------------
 TAPPING THE RNA WORLD FOR THERAPEUTICS
 ----------------------------------------
 <p><b>Tapping the RNA world for therapeutics</b></p><p>Tapping the RNA world for therapeutics, Published online: 16 April 2018; <a href="https://www.nature.com/articles/s41594-018-0054-4">doi:10.1038/s41594-018-0054-4</a></p>Developments in basic RNA biology have spawned RNA-based strategies to generate new types of therapeutics. Judy Lieberman reviews RNA-based drug design and discusses barriers to more widespread applications and possible ways to overcome them.<img alt="" height="1" src="http://feeds.feedburner.com/~r/nsmb/rss/current/~4/27Nrt5obraA" width="1" />
@@ -24,30 +19,15 @@ http://feeds.nature.com/~r/nsmb/rss/current/~3/27Nrt5obraA/s41594-018-0054-4
                                
 Proceedings of the National Academy of Sciences current issue
 ===================================================
-TRANSCRIPTOME-WIDE DISCOVERY OF CODING AND NONCODING RNA-BINDING PROTEINS [CHEMISTRY]
+EIF1 LOOP 2 INTERACTIONS WITH MET-TRNAI CONTROL THE ACCURACY OF START CODON SELECTION BY THE SCANNING PREINITIATION COMPLEX [BIOCHEMISTRY]
 ----------------------------------------
-Transcriptome-wide identification of RNA-binding proteins (RBPs) is a prerequisite for understanding the posttranscriptional gene regulation networks. However, proteomic profiling of RBPs has been mostly limited to polyadenylated mRNA-binding proteins, leaving RBPs on nonpoly(A) RNAs, including most noncoding RNAs (ncRNAs) and pre-mRNAs, largely undiscovered. Here we present a click chemistry-assisted RNA...
-http://www.pnas.org/content/115/17/E3879.short?rss=1
+The eukaryotic 43S preinitiation complex (PIC), bearing initiator methionyl transfer RNA (Met-tRNAi) in a ternary complex (TC) with eukaryotic initiation factor 2 (eIF2)-GTP, scans the mRNA leader for an AUG codon in favorable context. AUG recognition evokes rearrangement from an open PIC conformation with TC in a “POUT” state to...
+http://www.pnas.org/content/115/18/E4159.short?rss=1
 ----------------------------------------
-ROLES OF THE CSE1L-MEDIATED NUCLEAR IMPORT PATHWAY IN EPIGENETIC SILENCING [GENETICS]
+DIGITIZING OMICS PROFILES BY DIVERGENCE FROM A BASELINE [BIOPHYSICS AND COMPUTATIONAL BIOLOGY]
 ----------------------------------------
-Epigenetic silencing can be mediated by various mechanisms, and many regulators remain to be identified. Here, we report a genome-wide siRNA screening to identify regulators essential for maintaining gene repression of a CMV promoter silenced by DNA methylation. We identified CSE1L (chromosome segregation 1 like) as an essential factor for...
-http://www.pnas.org/content/115/17/E4013.short?rss=1
-----------------------------------------
-TRANSLATION INITIATION IN BACTERIAL POLYSOMES THROUGH RIBOSOME LOADING ON A STANDBY SITE ON A HIGHLY TRANSLATED MRNA [BIOCHEMISTRY]
-----------------------------------------
-During translation, consecutive ribosomes load on an mRNA and form a polysome. The first ribosome binds to a single-stranded mRNA region and moves toward the start codon, unwinding potential mRNA structures on the way. In contrast, the following ribosomes can dock at the start codon only when the first ribosome...
-http://www.pnas.org/content/115/17/4411.short?rss=1
-----------------------------------------
-NUCLEUS-SPECIFIC EXPRESSION IN THE MULTINUCLEAR MUSHROOM-FORMING FUNGUS AGARICUS BISPORUS REVEALS DIFFERENT NUCLEAR REGULATORY PROGRAMS [BIOPHYSICS AND COMPUTATIONAL BIOLOGY]
-----------------------------------------
-Many fungi are polykaryotic, containing multiple nuclei per cell. In the case of heterokaryons, there are different nuclear types within a single cell. It is unknown what the different nuclear types contribute in terms of mRNA expression levels in fungal heterokaryons. Each cell of the mushroom Agaricus bisporus contains two...
-http://www.pnas.org/content/115/17/4429.short?rss=1
-----------------------------------------
-CORRECTION FOR SERR ET AL., MIRNA92A TARGETS KLF2 AND THE PHOSPHATASE PTEN SIGNALING TO PROMOTE HUMAN T FOLLICULAR HELPER PRECURSORS IN T1D ISLET AUTOIMMUNITY [CORRECTION]
-----------------------------------------
-IMMUNOLOGY AND INFLAMMATION Correction for “miRNA92a targets KLF2 and the phosphatase PTEN signaling to promote human T follicular helper precursors in T1D islet autoimmunity” by Isabelle Serr, Rainer W. Fürst, Verena B. Ott, Martin G. Scherm, Alexei Nikolaev, Füsun Gökmen, Stefanie Kälin, Stephanie Zillmer, Melanie Bunk, Benno Weigmann, Nicole Kunschke,...
-http://www.pnas.org/content/115/17/E4142.short?rss=1
+Data collected from omics technologies have revealed pervasive heterogeneity and stochasticity of molecular states within and between phenotypes. A prominent example of such heterogeneity occurs between genome-wide mRNA, microRNA, and methylation profiles from one individual tumor to another, even within a cancer subtype. However, current methods in bioinformatics, such as...
+http://www.pnas.org/content/115/18/4545.short?rss=1
 ----------------------------------------
                                
 Recent Articles in Phys. Rev. Lett.
@@ -254,6 +234,21 @@ https://academic.oup.com/bioinformatics/article/34/8/1261/4636216?rss=1
                                
 Cell
 ===================================================
+PROMOTER OF LNCRNA GENE PVT1 IS A TUMOR-SUPPRESSOR DNA BOUNDARY ELEMENT
+----------------------------------------
+Recurrent mutations in human cancer are found encompassing the promotor for the lncRNA gene PVT1, which regulates MYC transcription via promoter competition for a shared set of enhancers.
+https://www.cell.com/cell/fulltext/S0092-8674(18)30400-8?rss=yes
+----------------------------------------
+CRYO-EM STRUCTURE OF HUMAN DICER AND ITS COMPLEXES WITH A PRE-MIRNA SUBSTRATE
+----------------------------------------
+Structural analysis of human Dicer shows how it collaborates with an accessory protein to position a pre-miRNA substrate for processing.
+https://www.cell.com/cell/fulltext/S0092-8674(18)30452-5?rss=yes
+----------------------------------------
+SELF-RECOGNITION OF AN INDUCIBLE HOST LNCRNA BY RIG-I FEEDBACK RESTRICTS INNATE IMMUNE RESPONSE
+----------------------------------------
+A self-recognition mode between RIG-I and an inducible host lncRNA functions to restrict innate immune response in a feedback manner.
+https://www.cell.com/cell/fulltext/S0092-8674(18)30396-9?rss=yes
+----------------------------------------
 CHEMORESISTANCE EVOLUTION IN TRIPLE-NEGATIVE BREAST CANCER DELINEATED BY SINGLE-CELL SEQUENCING
 ----------------------------------------
 Combination of single-cell DNA and RNA sequencing depicts the evolutionary trajectories of chemoresistance in human triple-negative breast cancer at the genomic and transcriptomic level, highlighting the presence of pre-existing genomic alterations and transcriptional reprogramming of resistant signatures.
@@ -269,20 +264,10 @@ PHASE TRANSITIONS IN THE ASSEMBLY AND FUNCTION OF HUMAN MIRISC
 Phase separation of miRISC proteins leads to target mRNA sequestration and facilitates accelerated deadenylation.
 https://www.cell.com/cell/fulltext/S0092-8674(18)30228-9?rss=yes
 ----------------------------------------
-TRANSCRIPTOME ENGINEERING WITH RNA-TARGETING TYPE VI-D CRISPR EFFECTORS
+TRANSCRIPTOME-WIDE INTERROGATION OF THE FUNCTIONAL INTRONOME BY SPLICEOSOME PROFILING
 ----------------------------------------
-A new family of RNA-targeting CRISPR-Cas systems allows specific modulation of splicing events to reduce pathological tau isoforms in a neuronal model of frontotemporal dementia.
-https://www.cell.com/cell/fulltext/S0092-8674(18)30207-1?rss=yes
-----------------------------------------
-BEYOND THE TRANSPORT FUNCTION OF IMPORT RECEPTORS: WHAT’S ALL THE FUS ABOUT?
-----------------------------------------
-Nuclear import receptors regulate supramolecular assemblies by fine-tuning the phase separating properties of RNA-binding proteins, which has implications for a variety of neurodegenerative disorders.
-https://www.cell.com/cell/fulltext/S0092-8674(18)30455-0?rss=yes
-----------------------------------------
-FUS PHASE SEPARATION IS MODULATED BY A MOLECULAR CHAPERONE AND METHYLATION OF ARGININE CATION-Π INTERACTIONS
-----------------------------------------
-Phase transition of the RNA-binding protein FUS is mediated by cation-π interactions between C-terminal arginines and N-terminal tyrosines and is modulated by arginine methlylation.
-https://www.cell.com/cell/fulltext/S0092-8674(18)30388-X?rss=yes
+Spliceosome profiling exemplified by transcriptome-wide sequencing of RNAs associating with late-stage spliceosomes offers a platform for generation of genome-wide maps for all sites of spliceosome assembly and action in diverse cell types.
+https://www.cell.com/cell/fulltext/S0092-8674(18)30394-5?rss=yes
 ----------------------------------------
                                
 Journal of Molecular Biology
@@ -486,4 +471,4 @@ FEATURED ARTICLES: HUMAN TRNALYS3UUU IS PRE-STRUCTURED BY NATURAL MODIFICATIONS 
 https://www.journals.elsevier.com/journal-of-molecular-biology/featured-articles/human-trnalys3uuu
 ----------------------------------------
                                
-fetch took 14.062 s
+fetch took 12.746 s

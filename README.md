@@ -25,7 +25,7 @@ Usage
 
 To run the program just call it from the prompt:
 
-    bash-4.0$ ./weeklyrev.py
+    bash-4.0$ python weeklyrev.py
 
 
 This will go to the list of news feeds you're following
